@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "go",
+			"label": "go: build workspace",
+			"command": "build",
+			"args": [
+				"-ldflags=-s -w"
+			],
+			"problemMatcher": [
+				"$go"
+			],
+			"group": "build",
+			"detail": "cd /home/user/CodeServer/ZabbixAgent2/Go/Factor; go build -ldflags=-s -w"
+		}
+	]
+}
